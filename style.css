@@ -148,7 +148,7 @@ header {
 }
 
 .menu:hover {
-    background-color: rgb(0, 140, 255);
+    background: linear-gradient(135deg, #7c1818 0%, #0e3846 70%);
     transition: 0.1s linear;
 }
 
@@ -162,14 +162,25 @@ header {
     margin-bottom: 100px;
 }
 
+.about_me_text {
+    background: linear-gradient(135deg, #7c1818 0%, #0e3846 70%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
 h1 {
     font-size: 10em;
     color: #fff;
     font-weight: 600;
-    /*color: transparent;*/
-    /*-webkit-background-clip: text;*/
-    /*background-image: linear-gradient(270deg, #dafdff 0, #afe7ff 16.67%, #7ecefb 33.33%, #3cb5f2 50%, #009ce9 66.67%, #0084e0 83.33%, #006ed7 100%);   font-weight: 600;*/
+    /* background: linear-gradient(135deg, #7c1818 0%, #0e3846 70%);
+    color: transparent;
+    -webkit-background-clip: text; */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1:hover {
+    /* color: #fff;
+    transition: 0.1s linear; */
 }
 
 .about_me_image {
@@ -201,7 +212,7 @@ h1 {
     display: flex;
     align-items: center;
     margin-right: 50px;
-    padding: 15px 20px;
+    padding: 10px 20px;
     background-color: #0a0a0a;
     border-radius: 5px;
 }
@@ -222,12 +233,12 @@ h1 {
 }
 
 .btn_email:hover {
-    background-color: rgb(0, 140, 255);
+    background: linear-gradient(135deg, #7c1818 0%, #0e3846 70%);
     transition: 0.1s;
 }
 
 .btn_cv:hover {
-    background-color: rgb(0, 140, 255);
+    background: linear-gradient(135deg, #7c1818 0%, #0e3846 70%);
     transition: 0.1s;
 }
 
@@ -243,18 +254,20 @@ h1 {
 
 .projects {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
     padding: 100px 100px 0;
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
 .projects_text {
+    display: flex;
+    justify-content: center;
     margin-bottom: 50px;
 }
 
-.projects_text p {
+.project_tittle {
+    display: flex;
     color: #fff;
     font-size: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -263,56 +276,95 @@ h1 {
 }
 
 .projects_item {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .projects_block {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 49%;
+    margin-bottom: 20px;
+    padding: 25px 50px;
+    background-color: #0a0a0a;
     border-radius: 5px;
-    position: relative;
+    background: linear-gradient(135deg, #7c1818 0%, #0e3846 70%);
+}
+
+.projects_description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects_tetx {
+    /* padding-left: 150px; */
+    /* text-align: center; */
+    width: 50%;
+    padding-left: 20px;
+}
+
+.projects h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 15px;
+}
+
+.projects p {
+    color: #fff;
+    font-size: 15px;
+    text-align: end;
+    line-height: 1.5em;
+    font-weight: 400;
+    text-align: start;
 }
 
 .projects_img {
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
+    max-width: 50%;
+    margin-bottom: 100px;
     object-fit: cover;
     object-position: center;
 }
 
+.projects_btn {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
 .projects_btn_1 {
-    position: absolute;
-    top: 70%;
-    left: 6%;
     background-color: #0a0a0a;
-    padding: 25px;
+    padding: 20px;
     border-radius: 5px;
 }
 
 .projects_btn_2 {
-    position: absolute;
-    top: 70%;
-    left: 55%;
+    /* top: 80%;
+    left: 55%; */
     background-color: #0a0a0a;
-    padding: 25px;
+    padding: 20px;
     border-radius: 5px;
+    /* display: none; */
 }
 
 .projects_btn_1:hover {
-    background-color: rgb(0, 140, 255);
-    transition: 0.1s linear;
+    background: linear-gradient(135deg, #7c1818 0%, #0e3846 70%);
+    background: none;
+    outline: 2px #0a0a0a solid;
 }
 
 .projects_btn_2:hover {
-    background-color: rgb(0, 140, 255);
-    transition: 0.1s linear;
+    background: linear-gradient(135deg, #7c1818 0%, #0e3846 70%);
+    background: none;
+    outline: 2px #0a0a0a solid;
 }
 
 .projects a {
     color: #fff;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 600;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-transform: uppercase;
