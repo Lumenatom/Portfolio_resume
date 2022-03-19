@@ -151,6 +151,7 @@ header {
     background-color: rgb(13, 73, 185);
     /* background: linear-gradient(135deg, #7c1818 0%, #0e3846 70%); */
     transition: 0.1s linear;
+    border-radius: 5px;
 }
 
 
