@@ -148,7 +148,8 @@ header {
 }
 
 .menu:hover {
-    background: linear-gradient(135deg, #7c1818 0%, #0e3846 70%);
+    background-color: rgb(13, 73, 185);
+    /* background: linear-gradient(135deg, #7c1818 0%, #0e3846 70%); */
     transition: 0.1s linear;
 }
 
@@ -233,12 +234,14 @@ h1:hover {
 }
 
 .btn_email:hover {
-    background: linear-gradient(135deg, #7c1818 0%, #0e3846 70%);
+    background-color: rgb(13, 73, 185);
+    /* background: linear-gradient(135deg, #7c1818 0%, #0e3846 70%); */
     transition: 0.1s;
 }
 
 .btn_cv:hover {
-    background: linear-gradient(135deg, #7c1818 0%, #0e3846 70%);
+    background-color: rgb(13, 73, 185);
+    /* background: linear-gradient(135deg, #7c1818 0%, #0e3846 70%); */
     transition: 0.1s;
 }
 
@@ -288,9 +291,22 @@ h1:hover {
     width: 49%;
     margin-bottom: 20px;
     padding: 25px 50px;
-    background-color: #0a0a0a;
+    /* background-color: #0a0a0a; */
     border-radius: 5px;
-    background: linear-gradient(135deg, #7c1818 0%, #0e3846 70%);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(172, 164, 164, 0.1);
+    /* border: 2px #12699b solid; */
+    /* background: linear-gradient(135deg, #7c1818 0%, #0e3846 70%); */
+}
+
+.block_1 {
+    /* background-image: url(./img/digital_clock.jpg); */
+    background-size: cover;
+    /* -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(235, 4, 4, 0.5); */
+    /* background-size: contain; */
 }
 
 .projects_description {
@@ -327,6 +343,7 @@ h1:hover {
     margin-bottom: 100px;
     object-fit: cover;
     object-position: center;
+    border-radius: 5px;
 }
 
 .projects_btn {
@@ -351,15 +368,19 @@ h1:hover {
 }
 
 .projects_btn_1:hover {
-    background: linear-gradient(135deg, #7c1818 0%, #0e3846 70%);
-    background: none;
-    outline: 2px #0a0a0a solid;
+    /* background: linear-gradient(135deg, #7c1818 0%, #0e3846 70%); */
+    /* background: none; */
+    /* outline: 2px #0a0a0a solid; */
+    background-color: rgb(13, 73, 185);
+    transition: 0.1s linear;
 }
 
 .projects_btn_2:hover {
-    background: linear-gradient(135deg, #7c1818 0%, #0e3846 70%);
+    /* background: linear-gradient(135deg, #7c1818 0%, #0e3846 70%);
     background: none;
-    outline: 2px #0a0a0a solid;
+    outline: 2px #0a0a0a solid; */
+    background-color: rgb(13, 73, 185);
+    transition: 0.1s linear;
 }
 
 .projects a {
