@@ -291,22 +291,8 @@ h1:hover {
     width: 49%;
     margin-bottom: 20px;
     padding: 25px 50px;
-    /* background-color: #0a0a0a; */
     border-radius: 5px;
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    background-color: rgba(172, 164, 164, 0.1);
-    /* border: 2px #12699b solid; */
-    /* background: linear-gradient(135deg, #7c1818 0%, #0e3846 70%); */
-}
-
-.block_1 {
-    /* background-image: url(./img/digital_clock.jpg); */
-    background-size: cover;
-    /* -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    background-color: rgba(235, 4, 4, 0.5); */
-    /* background-size: contain; */
+    background-color: rgba(194, 182, 182, 0.205);
 }
 
 .projects_description {
@@ -315,8 +301,6 @@ h1:hover {
 }
 
 .projects_tetx {
-    /* padding-left: 150px; */
-    /* text-align: center; */
     width: 50%;
     padding-left: 20px;
 }
@@ -340,7 +324,7 @@ h1:hover {
 
 .projects_img {
     max-width: 50%;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     object-fit: cover;
     object-position: center;
     border-radius: 5px;
