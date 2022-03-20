@@ -10,226 +10,365 @@
 </head>
 
 <body>
-
-    <div class="container">
-        <header>
-            <div class="header_nav">
-                <div class="header_nav_logo">
-                    <p class="name">Arthur Shevtsov</p>
+    <header class="header">
+        <div class="header_item">
+            <div class="header_logo">
+                <p class="header_name">Arthur Shevtsov</p>
+            </div>
+            <nav class="header_nav">
+                <ul class="header_ul">
+                    <li class="header_li">
+                        <a href="#yakr_1">Home</a>
+                    </li>
+                    <li class="header_li">
+                        <a href="#yakr_2">Projects</a>
+                    </li>
+                    <li class="header_li">
+                        <a href="#yakr_3">Hard skills</a>
+                    </li>
+                    <li class="header_li">
+                        <a href="#yakr_4">About me</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="yakr_1" class="about-me">
+        <div class="container">
+            <div class="about-me_item">
+                <div class="about-me_block-1">
+                    <div class="about-me_text">
+                        <h1 class="about-me_h1">
+                            Front-end <br> Web Developer
+                        </h1>
+                    </div>
+                    <div class="about-me_photo">
+                        <img class="about-me_img" src="./img/person.jpg" alt="photo">
+                    </div>
                 </div>
-                <div class="header_nav_menu">
-                    <a class="menu" href="#yakr_1">Home</a>
-                    <a class="menu" href="#yakr_2">Projects</a>
-                    <a class="menu" href="#yakr_3">Hard skills</a>
-                    <a class="menu" href="#yakr_4">About me</a>
-                    <a class="menu" href="#yakr_5">Soft skills</a>
+                <div class="about-me_block-2">
+                    <div class="about-me_btn">
+                        <div class="about-me_btn-1">
+                            <a class="about-me_btn-a" href="mailto:Lumenatom@gmail.com">
+                                <img class="about-me_icon-btn" src="./img/email.png" alt="">
+                                <p class="about-me_btn-p">Lumenatom@gmail.com</p>
+                            </a>
+                        </div>
+                        <div class="about-me_btn-1">
+                            <a class="about-me_btn-a" href="./img/resume.pdf">
+                                <img class="about-me_icon-btn" src="./img/cv.png" alt="">
+                                <p class="about-me_btn-p">View CV</p>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </header>
-        <div class="about_me" id="yakr_1">
-            <div class="about_me_text">
-                <h1>
-                    Front-end <br> Web Developer
-                </h1>
-            </div>
-            <div class="about_me_image">
-                <img class="about_me_photo" src="./img/photo.jpg" alt="">
-            </div>
-            <div class="about_me_btn">
-                <a class=" btn_email" href="mailto:Lumenatom@gmail.com">
-                    <img class="about_me_icon" src="./img/email.png" alt="">
-                    <p>Lumenatom@gmail.com</p>
-                </a>
-                <a class="btn_cv" href="./img/resume.pdf">
-                    <img class="about_me_icon" src="./img/cv.png" alt="">
-                    <p>View CV</p>
-                </a>
+                <hr class="line">
             </div>
         </div>
-        <hr class="liner">
-        <div class="projects" id="yakr_2">
-            <div class="projects_text">
-                <div class="project_tittle">Projects</div>
+    </section>
+    <div id="yakr_2" class="projects">
+        <div class="container">
+            <div class="projects_title">
+                <h2 class="projects_title-h2">Projects</h2>
             </div>
             <div class="projects_item">
-                <div class="projects_block block_1">
-                    <div class="projects_description">
-                        <img class="projects_img" src="./img/digital_clock.jpg" alt="">
-                        <div class="projects_tetx">
-                            <h2>
-                                Digital Clock
-                            </h2>
-                            <p>
-                                HTML, CSS, JavaScript.
-                            </p>
+                <div class="projects_block">
+                    <div class="projects_block-1">
+                        <div class="projecs_image">
+                            <img src="./img/macbook-2.png" alt="project" class="projects_img">
+                        </div>
+                        <div class="projects_text">
+                            <h2 class="projects_h2"> Digital clock</h2>
+                            <p class="projects_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, iure quaerat excepturi numquam sequi adipisci dignissimos dicta laborum ex magni unde fugit delectus laboriosam rem minus tempora, quos veritatis possimus.</p>
                         </div>
                     </div>
-                    <div class="projects_btn">
-                        <a class="projects_btn_1 btn" href="https://lumenatom.github.io/Digital-clock/"> OPEN PROJECT</a>
-                        <a class="projects_btn_2 btn" href="https://github.com/Lumenatom/Digital-clock"> VIEW GITHUB</a>
-                    </div>
-                </div>
-                <div class="projects_block block_2">
-                    <div class="projects_description">
-                        <img class="projects_img" src="./img/calculator.jpg" alt="">
-                        <div class="projects_tetx">
-                            <h2>
-                                Calculator
-                            </h2>
-                            <p>
-                                HTML, CSS, JavaScript.
-                            </p>
+                    <div class="projects_block-2">
+                        <div class="projects_btn">
+                            <div class="projects_btn-1">
+                                <a class="projects_btn-a" href="mailto:Lumenatom@gmail.com">
+                                    <img class="projects_icon-btn" src="./img/email.png" alt="">
+                                    <p class="projects_btn-p">Lumenatom@gmail.com</p>
+                                </a>
+                            </div>
+                            <div class="projects_btn-2">
+                                <a class="projects_btn-a" href="./img/resume.pdf">
+                                    <img class="projects_icon-btn" src="./img/cv.png" alt="">
+                                    <p class="projects_btn-p">View CV</p>
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="projects_btn">
-                        <a class="projects_btn_1 btn" href="https://lumenatom.github.io/Calculator/"> OPEN PROJECT</a>
-                        <a class="projects_btn_2 btn" href="https://github.com/Lumenatom/Calculator"> VIEW GITHUB</a>
-                    </div>
-                </div>
-                <div class="projects_block block_3">
-                    <div class="projects_description">
-                        <img class="projects_img" src="./img/sushi.jpg" alt="">
-                        <div class="projects_tetx">
-                            <h2>
-                                Sushi delivery
-                            </h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eligendi beatae atque dolorum officia ipsum vitae, autem ut, aperiam laborum pariatur ipsa id enim ex rerum dolores similique ipsam nihil.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="projects_btn">
-                        <a class="projects_btn_1 btn" href="#"> OPEN PROJECT</a>
-                        <a class="projects_btn_2 btn" href="#"> VIEW GITHUB</a>
                     </div>
                 </div>
                 <div class="projects_block">
-                    <div class="projects_description">
-                        <img class="projects_img" src="./img/preprocessor.png" alt="">
-                        <div class="projects_tetx">
-                            <h2>
-                                Digital Clock
-                            </h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eligendi beatae atque dolorum officia ipsum vitae, autem ut, aperiam laborum pariatur ipsa id enim ex rerum dolores similique ipsam nihil.
-                            </p>
+                    <div class="projects_block-1">
+                        <div class="projecs_image">
+                            <img src="./img/macbook.png" alt="project" class="projects_img">
+                        </div>
+                        <div class="projects_text">
+                            <h2 class="projects_h2"> Digital clock</h2>
+                            <p class="projects_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, iure quaerat excepturi numquam sequi adipisci dignissimos dicta laborum ex magni unde fugit delectus laboriosam rem minus tempora, quos veritatis possimus.</p>
                         </div>
                     </div>
-                    <div class="projects_btn">
-                        <a class="projects_btn_1 btn" href="#"> OPEN PROJECT</a>
-                        <a class="projects_btn_2 btn" href="#"> VIEW GITHUB</a>
+                    <div class="projects_block-2">
+                        <div class="projects_btn">
+                            <div class="projects_btn-1">
+                                <a class="projects_btn-a" href="mailto:Lumenatom@gmail.com">
+                                    <img class="projects_icon-btn" src="./img/email.png" alt="">
+                                    <p class="projects_btn-p">Lumenatom@gmail.com</p>
+                                </a>
+                            </div>
+                            <div class="projects_btn-2">
+                                <a class="projects_btn-a" href="./img/resume.pdf">
+                                    <img class="projects_icon-btn" src="./img/cv.png" alt="">
+                                    <p class="projects_btn-p">View CV</p>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="projects_block">
-                    <div class="projects_description">
-                        <img class="projects_img" src="./img/preprocessor.png" alt="">
-                        <div class="projects_tetx">
-                            <h2>
-                                Digital Clock
-                            </h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eligendi beatae atque dolorum officia ipsum vitae, autem ut, aperiam laborum pariatur ipsa id enim ex rerum dolores similique ipsam nihil.
-                            </p>
+                    <div class="projects_block-1">
+                        <div class="projecs_image">
+                            <img src="./img/imac.png" alt="project" class="projects_img">
+                        </div>
+                        <div class="projects_text">
+                            <h2 class="projects_h2"> Digital clock</h2>
+                            <p class="projects_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, iure quaerat excepturi numquam sequi adipisci dignissimos dicta laborum ex magni unde fugit delectus laboriosam rem minus tempora, quos veritatis possimus.</p>
                         </div>
                     </div>
-                    <div class="projects_btn">
-                        <a class="projects_btn_1 btn" href="#"> OPEN PROJECT</a>
-                        <a class="projects_btn_2 btn" href="#"> VIEW GITHUB</a>
+                    <div class="projects_block-2">
+                        <div class="projects_btn">
+                            <div class="projects_btn-1">
+                                <a class="projects_btn-a" href="mailto:Lumenatom@gmail.com">
+                                    <img class="projects_icon-btn" src="./img/email.png" alt="">
+                                    <p class="projects_btn-p">Lumenatom@gmail.com</p>
+                                </a>
+                            </div>
+                            <div class="projects_btn-2">
+                                <a class="projects_btn-a" href="./img/resume.pdf">
+                                    <img class="projects_icon-btn" src="./img/cv.png" alt="">
+                                    <p class="projects_btn-p">View CV</p>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="projects_block">
-                    <div class="projects_description">
-                        <img class="projects_img" src="./img/preprocessor.png" alt="">
-                        <div class="projects_tetx">
-                            <h2>
-                                Digital Clock
-                            </h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eligendi beatae atque dolorum officia ipsum vitae, autem ut, aperiam laborum pariatur ipsa id enim ex rerum dolores similique ipsam nihil.
-                            </p>
+                    <div class="projects_block-1">
+                        <div class="projecs_image">
+                            <img src="./img/macbook.png" alt="project" class="projects_img">
+                        </div>
+                        <div class="projects_text">
+                            <h2 class="projects_h2"> Digital clock</h2>
+                            <p class="projects_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, iure quaerat excepturi numquam sequi adipisci dignissimos dicta laborum ex magni unde fugit delectus laboriosam rem minus tempora, quos veritatis possimus.</p>
                         </div>
                     </div>
-                    <div class="projects_btn">
-                        <a class="projects_btn_1 btn" href="#"> OPEN PROJECT</a>
-                        <a class="projects_btn_2 btn" href="#"> VIEW GITHUB</a>
-                    </div>
-                </div>
-                <div class="projects_block">
-                    <div class="projects_description">
-                        <img class="projects_img" src="./img/preprocessor.png" alt="">
-                        <div class="projects_tetx">
-                            <h2>
-                                Digital Clock
-                            </h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eligendi beatae atque dolorum officia ipsum vitae, autem ut, aperiam laborum pariatur ipsa id enim ex rerum dolores similique ipsam nihil.
-                            </p>
+                    <div class="projects_block-2">
+                        <div class="projects_btn">
+                            <div class="projects_btn-1">
+                                <a class="projects_btn-a" href="mailto:Lumenatom@gmail.com">
+                                    <img class="projects_icon-btn" src="./img/email.png" alt="">
+                                    <p class="projects_btn-p">Lumenatom@gmail.com</p>
+                                </a>
+                            </div>
+                            <div class="projects_btn-2">
+                                <a class="projects_btn-a" href="./img/resume.pdf">
+                                    <img class="projects_icon-btn" src="./img/cv.png" alt="">
+                                    <p class="projects_btn-p">View CV</p>
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="projects_btn">
-                        <a class="projects_btn_1 btn" href="#"> OPEN PROJECT</a>
-                        <a class="projects_btn_2 btn" href="#"> VIEW GITHUB</a>
-                    </div>
-                </div>
-                <div class="projects_block">
-                    <div class="projects_description">
-                        <img class="projects_img" src="./img/preprocessor.png" alt="">
-                        <div class="projects_tetx">
-                            <h2>
-                                Digital Clock
-                            </h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eligendi beatae atque dolorum officia ipsum vitae, autem ut, aperiam laborum pariatur ipsa id enim ex rerum dolores similique ipsam nihil.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="projects_btn">
-                        <a class="projects_btn_1 btn" href="#"> OPEN PROJECT</a>
-                        <a class="projects_btn_2 btn" href="#"> VIEW GITHUB</a>
                     </div>
                 </div>
             </div>
         </div>
-        <hr class="liner">
-        <div class="hard_skills" id="yakr_3">
-            <div class="hard_skills_text">
-                <p>Hard Skills</p>
-            </div>
-            <div class="hard_skills_item">
-                <div class="hard_skills_block">
-                    <img class="hard_skills_img" src="./img/html.jpg" alt="">
-                </div>
-                <div class="hard_skills_block">
-                    <img class="hard_skills_img" src="./img/css.png" alt="">
-                </div>
-                <div class="hard_skills_block">
-                    <img class="hard_skills_img" src="./img/js.jpg" alt="">
-                </div>
-                <div class="hard_skills_block">
-                    <img class="hard_skills_img" src="./img/adaptive.png" alt="">
-                </div>
-                <div class="hard_skills_block">
-                    <img class="hard_skills_img" src="./img/preprocessor.png" alt="">
-                </div>
-                <div class="hard_skills_block">
-                    <img class="hard_skills_img" src="./img/react.png" alt="">
-                </div>
-                <div class="hard_skills_block">
-                    <img class="hard_skills_img" src="./img/npm.jpeg" alt="">
-                </div>
-                <div class="hard_skills_block">
-                    <img class="hard_skills_img" src="./img/git.png" alt="">
-                </div>
-                <div class="hard_skills_block">
-                    <img class="hard_skills_img" src="./img/hard.jpg" alt="">
-                </div>
-            </div>
-        </div>
-        <hr class="liner">
-        <footer>
-            <p>футер ссылки контакты</p>
-        </footer>
     </div>
+
+
+    <!-- <hr class="liner">
+    <div class="projects" id="yakr_2">
+        <div class="projects_text">
+            <div class="project_tittle">Projects</div>
+        </div>
+        <div class="projects_item">
+            <div class="projects_block block_1">
+                <div class="projects_description">
+                    <img class="projects_img" src="./img/digital_clock.jpg" alt="">
+                    <div class="projects_tetx">
+                        <h2>
+                            Digital Clock
+                        </h2>
+                        <p>
+                            HTML, CSS, JavaScript.
+                        </p>
+                    </div>
+                </div>
+                <div class="projects_btn">
+                    <a class="projects_btn_1 btn" href="https://lumenatom.github.io/Digital-clock/"> OPEN PROJECT</a>
+                    <a class="projects_btn_2 btn" href="https://github.com/Lumenatom/Digital-clock"> VIEW GITHUB</a>
+                </div>
+            </div>
+            <div class="projects_block block_2">
+                <div class="projects_description">
+                    <img class="projects_img" src="./img/calculator.jpg" alt="">
+                    <div class="projects_tetx">
+                        <h2>
+                            Calculator
+                        </h2>
+                        <p>
+                            HTML, CSS, JavaScript.
+                        </p>
+                    </div>
+                </div>
+                <div class="projects_btn">
+                    <a class="projects_btn_1 btn" href="https://lumenatom.github.io/Calculator/"> OPEN PROJECT</a>
+                    <a class="projects_btn_2 btn" href="https://github.com/Lumenatom/Calculator"> VIEW GITHUB</a>
+                </div>
+            </div>
+            <div class="projects_block block_3">
+                <div class="projects_description">
+                    <img class="projects_img" src="./img/sushi.jpg" alt="">
+                    <div class="projects_tetx">
+                        <h2>
+                            Sushi delivery
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eligendi beatae atque dolorum officia ipsum vitae, autem ut, aperiam laborum pariatur ipsa id enim ex rerum dolores similique ipsam nihil.
+                        </p>
+                    </div>
+                </div>
+                <div class="projects_btn">
+                    <a class="projects_btn_1 btn" href="#"> OPEN PROJECT</a>
+                    <a class="projects_btn_2 btn" href="#"> VIEW GITHUB</a>
+                </div>
+            </div>
+            <div class="projects_block">
+                <div class="projects_description">
+                    <img class="projects_img" src="./img/preprocessor.png" alt="">
+                    <div class="projects_tetx">
+                        <h2>
+                            Digital Clock
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eligendi beatae atque dolorum officia ipsum vitae, autem ut, aperiam laborum pariatur ipsa id enim ex rerum dolores similique ipsam nihil.
+                        </p>
+                    </div>
+                </div>
+                <div class="projects_btn">
+                    <a class="projects_btn_1 btn" href="#"> OPEN PROJECT</a>
+                    <a class="projects_btn_2 btn" href="#"> VIEW GITHUB</a>
+                </div>
+            </div>
+            <div class="projects_block">
+                <div class="projects_description">
+                    <img class="projects_img" src="./img/preprocessor.png" alt="">
+                    <div class="projects_tetx">
+                        <h2>
+                            Digital Clock
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eligendi beatae atque dolorum officia ipsum vitae, autem ut, aperiam laborum pariatur ipsa id enim ex rerum dolores similique ipsam nihil.
+                        </p>
+                    </div>
+                </div>
+                <div class="projects_btn">
+                    <a class="projects_btn_1 btn" href="#"> OPEN PROJECT</a>
+                    <a class="projects_btn_2 btn" href="#"> VIEW GITHUB</a>
+                </div>
+            </div>
+            <div class="projects_block">
+                <div class="projects_description">
+                    <img class="projects_img" src="./img/preprocessor.png" alt="">
+                    <div class="projects_tetx">
+                        <h2>
+                            Digital Clock
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eligendi beatae atque dolorum officia ipsum vitae, autem ut, aperiam laborum pariatur ipsa id enim ex rerum dolores similique ipsam nihil.
+                        </p>
+                    </div>
+                </div>
+                <div class="projects_btn">
+                    <a class="projects_btn_1 btn" href="#"> OPEN PROJECT</a>
+                    <a class="projects_btn_2 btn" href="#"> VIEW GITHUB</a>
+                </div>
+            </div>
+            <div class="projects_block">
+                <div class="projects_description">
+                    <img class="projects_img" src="./img/preprocessor.png" alt="">
+                    <div class="projects_tetx">
+                        <h2>
+                            Digital Clock
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eligendi beatae atque dolorum officia ipsum vitae, autem ut, aperiam laborum pariatur ipsa id enim ex rerum dolores similique ipsam nihil.
+                        </p>
+                    </div>
+                </div>
+                <div class="projects_btn">
+                    <a class="projects_btn_1 btn" href="#"> OPEN PROJECT</a>
+                    <a class="projects_btn_2 btn" href="#"> VIEW GITHUB</a>
+                </div>
+            </div>
+            <div class="projects_block">
+                <div class="projects_description">
+                    <img class="projects_img" src="./img/preprocessor.png" alt="">
+                    <div class="projects_tetx">
+                        <h2>
+                            Digital Clock
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eligendi beatae atque dolorum officia ipsum vitae, autem ut, aperiam laborum pariatur ipsa id enim ex rerum dolores similique ipsam nihil.
+                        </p>
+                    </div>
+                </div>
+                <div class="projects_btn">
+                    <a class="projects_btn_1 btn" href="#"> OPEN PROJECT</a>
+                    <a class="projects_btn_2 btn" href="#"> VIEW GITHUB</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="liner">
+    <div class="hard_skills" id="yakr_3">
+        <div class="hard_skills_text">
+            <p>Hard Skills</p>
+        </div>
+        <div class="hard_skills_item">
+            <div class="hard_skills_block">
+                <img class="hard_skills_img" src="./img/html.jpg" alt="">
+            </div>
+            <div class="hard_skills_block">
+                <img class="hard_skills_img" src="./img/css.png" alt="">
+            </div>
+            <div class="hard_skills_block">
+                <img class="hard_skills_img" src="./img/js.jpg" alt="">
+            </div>
+            <div class="hard_skills_block">
+                <img class="hard_skills_img" src="./img/adaptive.png" alt="">
+            </div>
+            <div class="hard_skills_block">
+                <img class="hard_skills_img" src="./img/preprocessor.png" alt="">
+            </div>
+            <div class="hard_skills_block">
+                <img class="hard_skills_img" src="./img/react.png" alt="">
+            </div>
+            <div class="hard_skills_block">
+                <img class="hard_skills_img" src="./img/npm.jpeg" alt="">
+            </div>
+            <div class="hard_skills_block">
+                <img class="hard_skills_img" src="./img/git.png" alt="">
+            </div>
+            <div class="hard_skills_block">
+                <img class="hard_skills_img" src="./img/hard.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <hr class="liner">
+    <footer>
+        <p>футер ссылки контакты</p>
+    </footer>
+    </div> -->
 </body>
 
 <script src="./script.js"></script>
