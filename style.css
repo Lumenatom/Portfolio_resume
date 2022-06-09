@@ -98,7 +98,7 @@ h6 {
 /* HEADER */
 
 .header {
-    width: 1920px;
+    max-width: 1920px;
     position: fixed;
     left: 0;
     right: 0;
@@ -109,12 +109,13 @@ h6 {
 }
 
 .header_item {
-    max-width: 1920px;
+    /* max-width: 1920px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 200px;
     border-radius: 0px;
+    /* margin: 0 auto; */
 }
 
 .header_logo {}
